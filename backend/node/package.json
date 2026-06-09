@@ -1,0 +1,37 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.17.3",
+        "mysql2": "^3.15.3",
+        "intl": "^1.2.5",
+        "jsonwebtoken": "^9.0.0",
+        "module-alias": "^2.3.4",
+        "moment-timezone": "^0.5.43",
+        "node-cron": "^3.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "_moduleAliases": {
+        "@config": "config",
+        "@models": "models",
+        "@services": "services",
+        "@controllers": "controllers",
+        "@utils": "utils",
+        "@repositories": "repositories",
+        "@middlewares": "middlewares",
+        "@routes": "routes"
+    }
+}
